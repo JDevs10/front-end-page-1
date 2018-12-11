@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*header nav-bar*/
+header{
+    padding-bottom: 50px;
+    background-color: navy;
+}
+
+header nav{
+    background-color: black;
+    padding: 20px;
+}
+
+header nav div{
+    display: inline-block;
+    width: 32%;
+}
+
+header nav #icon button{
+    color: white;
+    background-color: navy;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+header nav .email-btn button{
+    color: white;
+    background-color: orangered;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    right: 10%;
+}
+
+header nav button{
+    position: absolute;
+    top: 5%;
+}
+
+header nav #nav-bar{
+    text-align: center;
+    color: white;
+}
+
+header nav #nav-bar p{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+header #header .text{
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+    margin: 0 25%;
+}
+
+header #header .text h1{
+    color: white;
+    font-size: 50px;
+}
+
+header #header .text p{
+    color: darkcyan;
+}
+
+header #header .text b{
+    color: white;
+    font-weight: bold;
+}
+
+
+/*========== Main ==========*/
+/*========== Button nav bar ==========*/
+main section#btn-bar{
+    width: 100%;
+    background-color: #DBD9FF;
+    display: inline-block;
+}
+
+main section#btn-bar .content-box{
+    width: 75%;
+    position: relative;
+    left: 20%;
+}
+
+main section .btn-box{
+    width: 15%;
+    display: inline-block;
+    margin: 1% 1%;
+    position: relative;
+    top: -60px;
+}
+
+main section div .circle:hover{
+    background-color: orangered;
+    border-color:orangered;
+    color: white;
+}
+
+main section div .circle{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    background-color: #08359C;
+    color: white;
+    box-shadow: 0px 15px 20px rgba(0, 6, 133, 0.5);
+    position: relative;
+    left: 15%;
+}
+
+main section div i{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*========== Hire me ==========*/
+
+main section#hire-me .content-hire{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+}
+
+main section#hire-me .content-hire .rectangle{
+    width: 12%;
+    height: 30px;
+    color: white;
+    background-color: #08359C;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+main section#hire-me .content-hire .left-btn{
+    position: relative;
+    left: 15px;
+}
+
+main section#hire-me .content-hire .right-btn{
+    position: relative;
+    right: 15px;
+}
+
+main section#hire-me .content-hire .rectangle:hover{
+    font-size: 13px;
+    background-color: orangered;
+    border-color:orangered;
+}
+
+main section#hire-me label{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 1;
+    padding: 4px;
+    border-radius: 100%;
+    background-color: orangered;
+    color: white;
+}
+
+/*========== section content ==========*/
+main section#content{
+    background-color: white;
+}
+
+main section#content div#left-nav-bar-vertical{
+    background-color: lightgray;
+    width: 100px;
+    height: 100%;
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 150px;
+    text-align: center;
+    color: gray;
+}
+
+main section#content div#left-nav-bar-vertical div{
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+main section#content div#left-nav-bar-vertical i{
+    font-size: 30px;
+}
+
+/*========== recent work ==========*/
+main section#content div#content-show{
+    width: 85%;
+    margin-top: 60px;
+    padding-left: 50px;
+}
+
+main section#content div#content-show .title {
+    height: 15%;
+}
+
+main section#content div#content-show .title h1{
+    font-size: 20px;
+}
+
+main section#content div#content-show .box{
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+main section#content div#content-show .bottom-box{
+    margin: 0;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+}
+
+main section#content div#content-show i{
+    font-size: 20px;
+}
+
+main section#content div#content-show div#work-view div.box div{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main section#content div#content-show div#work-view .icons{
+    width: 62%;
+}
+
+main section#content div#content-show div#work-view button{
+    border-radius: 25px;
+    background-color: #DBD9FF;
+    color: black;
+}
+
+main section#content div#content-show div#work-view button:hover{
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+
+
+
+/*========== bottom page ==========*/
+main section#bottom-page{
+    margin-top: 50px;
+}
+
+main section#bottom-page, main section#bottom-page div{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 0 10px;
+
+}
+main section#bottom-page div#blog{
+    height: 100%;
+}
+
+main section#bottom-page div.box{
+    width: 25%;
+    position: relative;
+    left: 10%;
+    padding-bottom: 50px;
+}
+
+main section#bottom-page div.box h2#title-box1{
+    font-size: 20px;
+}
+
+main section#bottom-page div.detail{
+    background-color: beige;
+    padding: 2px;
+}
+
+main section#bottom-page div.detail h2{
+    margin: 0;
+    padding: 5px 2px;
+    font-size: 20px;
+}
+
+main section#bottom-page div.detail i{
+    font-size: 15px;
+    color: orangered;
+}
+
+/*========== footer ==========*/
+footer{
+    background-color: black;
+    color: #DBD9FF;
+    text-align: center;
+}
+
+footer div#footer-l1{
+    padding: 15px;
+}
+
+footer div#footer-l1 div{
+    display: inline-block;
+}
+
+footer div#footer-l1 div#footer-icon button{
+    background-color: navy;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    right: 200px;
+}
+
+footer div#footer-l1 div#footer-top button{
+    background-color: orangered;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 200px;
+}
+
+footer div#footer-l1 div#footer-top button:hover{
+    background-color: orange;
+}
+
+footer div#footer-l1 div button{
+    position: relative;
+    top: -40px;
+}
+
+footer div#footer-l1 div#footer-nav-bar p{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+footer div#footer-l2{
+    font-size: 12px;
+    padding-bottom: 2px;
+}
